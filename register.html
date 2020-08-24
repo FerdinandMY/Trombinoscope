@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Login page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="floating-labels.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/normalize.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/jquery.steps.css">
+  </head>
+
+  <body>
+    <form class="form-signin">
+      <div class="text-center mb-4" style="padding-top: 75px;">
+        <img class="mb-4" src="img/logo.png" alt="" width="102" height="102">
+      </div>
+
+        <div class="content">
+            <div id="wizard">
+                <h2>Informations personnelle</h2>
+                <section>
+                    <p>
+                         <label for="inputEmail">Entrez votre Nom</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control"  required autofocus>
+                          </div>
+                          <label for="inputEmail">Entrez votre Prenom</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control" >
+                            
+                          </div>
+                          <label for="inputEmail">Entrez votre matricule</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control" >
+                            
+                          </div>
+                          <label for="inputEmail">Entrez votre spécialité</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control" >
+                            
+                          </div>
+                          <label for="inputEmail">Entrez votre promotion</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control" >
+                            
+                          </div>
+                          <label for="inputEmail">Entrez votre profession actuelle</label>
+                          <div class="form-label-group">
+                            <input type="text" id="inputEmail" class="form-control" >
+                            
+                          </div>
+                    </p>
+                </section>
+
+                <h2>Competences</h2>
+                <section>
+                    <p>
+                        hjfsdhjsfdjhfds
+                    </p>
+                </section>
+
+                <h2>Details de contact</h2>
+                <section>
+                    <p>
+                        hjfsdhjsfdjhfds
+                    </p>
+                </section>
+
+                <h2>Les recents travaux</h2>
+                <section>
+                    <p>
+                        hjfsdhjsfdjhfds
+                    </p>
+                </section>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+        <script src="dist/lib/modernizr-2.6.2.min.js"></script>
+        <script src="dist/lib/jquery-1.9.1.min.js"></script>
+        <script src="dist/lib/jquery.cookie-1.3.1.js"></script>
+        <script src="dist/lib/jquery.steps.js"></script>
+        <script>
+            $(function ()
+            {
+                $("#wizard").steps({
+                    headerTag: "h2",
+                    bodyTag: "section",
+                    transitionEffect: "slideLeft",
+                    stepsOrientation: "vertical"
+                });
+            });
+        </script>
+  </body>
+</html>
