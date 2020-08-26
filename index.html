@@ -12,31 +12,59 @@
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="floating-labels.css" rel="stylesheet">
+    <!-- Custom styles for this template 
+    <link href="floating-labels.css" rel="stylesheet">-->
   </head>
 
   <body>
-    <form class="form-signin">
-      <div class="text-center mb-4">
-        <img class="mb-4" src="img/logo.png" alt="" width="142" height="142">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <form class="form-signin">
+          <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+          <div class="text-center mb-4">
+            <img class="mb-4" src="img/logo.png" alt="" width="142" height="142">
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <label for="inputEmail">Entrez votre email</label>
+              <div class="form-label-group">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Entrez votre email" required autofocus>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <label for="inputPassword">Entrez votre mot de passe</label>
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Entrez votre mot de passe" required>
+                
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Se souvenir de moi
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>
+            </div>
+          </div>
+         
+          <p class="mt-5 mb-3 text-muted text-center">&copy; 2020</p>
+        </div>
       </div>
-      <div class="form-label-group">
-        <input type="email" id="inputEmail" class="form-control" placeholder="Entrez votre email" required autofocus>
-        <label for="inputEmail">Entrez votre email</label>
-      </div>
-      <div class="form-label-group">
-        <input type="password" id="inputPassword" class="form-control" placeholder="Entrez votre mot de passe" required>
-        <label for="inputPassword">Entrez votre mot de passe</label>
-      </div>
-
-      <div class="checkbox mb-3">
-        <label>
-          <input type="checkbox" value="remember-me"> Se souvenir de moi
-        </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Se connecter</button>
-      <p class="mt-5 mb-3 text-muted text-center">&copy; 2020</p>
-    </form>
+        </form>
+    </div> 
+    </div>
+  </div>
   </body>
 </html>
