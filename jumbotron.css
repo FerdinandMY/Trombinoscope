@@ -10,3 +10,10 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+.jumbotron{
+  background: url("img/img1.jpg") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
